@@ -1,9 +1,14 @@
 import React from "react";
+import Movie from "./Movie";
+
 
 const MoviesList = () => {
-
+    
     return (
-        <h2>I'm a list of Movies</h2>
+        <div>
+            <Movie title="Spiderman"/>
+            <Movie title="Life Itself"/>
+        </div>
     );
 };
 
