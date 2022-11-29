@@ -1,11 +1,11 @@
 import React from "react";
 
-const Movie = ({title}) => {
+const Movie = ({name}) => {
 
     return (
         <div>
             <p>
-                {title}
+                {name}
             </p>
         </div>
     );

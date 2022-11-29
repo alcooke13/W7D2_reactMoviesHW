@@ -4,7 +4,9 @@ const UpcomingReleases = () => {
     
 
     return (
-        <h4>I'm Upcoming releases</h4>
+        <a href="https://www.imdb.com/calendar/?region=gb">
+            <h4>View more upcoming releases </h4>
+        </a>
     );
 };
 

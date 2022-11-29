@@ -22,7 +22,8 @@ const FilmBox = () => {
           },
           {
             id: 4,
-            name: "The Lego Movie 2: The Second Part", url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
+            name: "The Lego Movie 2: The Second Part",
+            url: "https://www.imdb.com/title/tt3513498/?ref_=rlm"
           },
           {
             id: 5,
@@ -34,7 +35,8 @@ const FilmBox = () => {
     return (
         <div>
             <h1>Upcoming film releases for the UK</h1>
-            <MoviesList movies = {movies}/>
+            <hr></hr>
+            <ul><MoviesList movies = {movies}/></ul>
             <UpcomingReleases />
 
         </div>
